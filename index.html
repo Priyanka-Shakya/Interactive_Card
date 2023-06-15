@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftbox">
+            <div class="upper">
+                <div class="circles">
+                    <button id="btn1"></button>
+                    <button></button>
+                </div>
+                <div class="numberline">
+                    <h3 class="cardValidNumber">0000 0000 0000 0000</h3>
+                </div>
+                <div class="bottom">
+                    <div class="name">Alex</div>
+                    <div class="date">8/2000</div>
+                </div>
+            </div>
+            <div class="lower"></div>
+        </div>
+        <div class="rightbox">
+            <div class="inputBox">
+                    <label for="cardHoldername">CARDHOLDER NAME</label>
+                    <input type="text" placeholder="eg. john" id="fname" class="fname">
+                    <h6 class="fnames" ></h6>
+
+                    <label for="cardNumber">CARDNUMBER</label>
+                    <input type="text" placeholder="eg. 1234 4567 6789 2387" class="fnumber" id="fnumber">
+                    <h6 class="fnumber"></h6>
+
+                    <label for="expirydate">EXP. DATE (MM / YY)</label>
+                    <div class="dates">
+                        <div class="box1">
+                            <input type="text" class="b1" placeholder="M/M" class="mm" id="month">
+                            <h6 class="mm"></h6>
+                        </div>
+                        <div class="box1">
+                            <input type="text" class="b1" placeholder="Y/Y" id="year" class="yy">
+                            <h6 class="yy"></h6>
+                        </div>
+                        <div class="box1">
+                            <input type="text" class="b2" placeholder="eg. 123" id="threedigit" class="digits">
+                            <h6 class="digits"></h6>
+                        </div>
+                    </div>
+                    <button id="cBtn">CONFIRM</button>
+            </div>
+
+            <div class="thankBox">
+                <div class="comIcon"><img src="images/icon-complete.svg" alt=""></div>
+                <div class="thanku">
+                    <h1>Thank You</h1>
+                    <h4>We've added your card details</h4>
+                </div>
+                <button>CONTINUE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

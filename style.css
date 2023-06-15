@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    background: linear-gradient(120deg, rgb(255, 167, 167), purple, rgb(255, 112, 238));
+}
+
+.container {
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.leftbox {
+    height: 100%;
+    width: 60%;
+}
+
+.rightbox {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(120deg, rgb(253, 177, 177), rgb(197, 197, 255));
+    border-radius: 4px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.upper {
+    height: 38%;
+    width: 65%;
+    background: url(images/bg-card-front.png)no-repeat center center/cover;
+    border-radius: 5px;
+}
+
+.lower {
+    height: 38%;
+    width: 65%;
+    margin-top: 8vh;
+    margin-left: 8vw;
+    background: url(images/bg-card-back.png)no-repeat center center/cover;
+    border-radius: 5px;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+}
+
+.circles button {
+    margin-left: 1.5vw;
+    margin-top: 2.5vh;
+    color: white;
+}
+
+button {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: none;
+}
+
+#btn1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.numberline {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    padding: 2px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+.inputBox {
+    height: 70%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    color: rgb(81, 5, 105);
+    text-shadow: 2px 2px 2px white;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 2px 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+h6 {
+    margin-left: 20px;
+}
+
+.inputBox button {
+    height: 6vh;
+    width: 80%;
+    background-color: purple;
+    margin-left: 20px;
+    margin-top: 5vh;
+    border-radius: 0;
+    border-radius: 6px;
+    color: white;
+}
+
+.dates {
+    display: flex;
+}
+
+.dates input {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.dates .b1 {
+    width: 5vw;
+}
+
+.dates .b2 {
+    width: 11vw;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    color: red;
+}
+
+.thankBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    display:none ;
+}
+
+.thankBox button {
+    height: 6vh;
+    width: 80%;
+    background-color: purple;
+    margin-left: 20px;
+    margin-top: 5vh;
+    border-radius: 0;
+    border-radius: 6px;
+    color: white;
+}
+
+.thanku {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 15px;
+    color:blue;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
